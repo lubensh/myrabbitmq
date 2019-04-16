@@ -1,0 +1,13 @@
+server:
+  port: 4540
+
+spring:
+  application:
+    name: spring-boot-rabbitmq
+
+  rabbitmq:
+    host: 192.168.90.101
+    port: 5672
+    virtual-host: /wehost_lubsh
+    username: admin
+    password: 123456
